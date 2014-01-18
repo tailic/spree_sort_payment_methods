@@ -1,7 +1,7 @@
 SpreeSortPaymentMethods
 =======================
 
-Introduction goes here.
+This gem allows you to sort your payments methods to show them in the way you really want
 
 Installation
 ------------

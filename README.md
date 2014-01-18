@@ -9,7 +9,7 @@ Installation
 Add spree_sort_payment_methods to your Gemfile:
 
 ```ruby
-gem 'spree_sort_payment_methods'
+gem 'spree_sort_payment_methods', '~> 2.1'
 ```
 
 Bundle your dependencies and run the installation generator:

@@ -2,16 +2,16 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_sort_payment_methods'
-  s.version     = '2.0'
+  s.version     = '2.0.1'
   s.summary     = 'Allow to sort payments methods from backend'
   s.description = 'Allow to sort payments method from backend'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Steven Barragan'
   s.email     = 'me@steven.mx'
+  s.homepage  = 'https://github.com/stevenbarragan/spree_sort_payment_methods'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 

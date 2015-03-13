@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_sort_payment_methods'
-  s.version     = '2.1.2'
+  s.version     = '2.0.0'
   s.summary     = 'Allow to sort payments methods from backend'
   s.description = 'Allow to sort payments method from backend'
   s.required_ruby_version = '>= 1.9.3'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.1.1'
+  s.add_dependency 'spree_core', '~> 2.2.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
